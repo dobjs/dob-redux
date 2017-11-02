@@ -11,7 +11,7 @@ npm i dob-redux
 ## Usage
 
 ```typescript
-import { observable } from 'dob
+import { observable } from 'dob'
 import { createReduxStore } from 'dob-redux'
 import { Provider, connect } from "react-redux"
 
