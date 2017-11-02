@@ -2,10 +2,17 @@
 
 ![dob-react](./assets/dob-redux.png)
 
+## Installation
+
+```bash
+npm i dob-redux
+```
+
 ## Usage
 
 ```typescript
-import { observable, createReduxStore } from 'dob'
+import { observable } from 'dob
+import { createReduxStore } from 'dob-redux'
 import { Provider, connect } from "react-redux"
 
 class User {
