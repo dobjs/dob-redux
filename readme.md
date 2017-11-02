@@ -82,3 +82,40 @@ ReactDOM.render(
 ## Online Demo
 
 Here is a basic [demo](https://jsfiddle.net/56saqqvw/9/)
+
+## Apis
+
+### createReduxStore
+
+Returns a store that can be used by Redux.
+
+```typescript
+import { createReduxStore } from 'dob-redux'
+
+class Test {
+  store = observable({
+    age: 1
+  })
+
+  changeAge() {
+    this.store.age = 2
+  }
+}
+
+createReduxStore({
+  testStore: Test
+})
+```
+
+### onSnapshot
+
+```typescript
+import { observable } from 'dob'
+import { onSnapshot } from 'dob-redux'
+
+const obj = observable({ a: 1 })
+
+onSnapshot(obj, snapshot => {
+  // each time obj's any property changed, an new snapshot will created here
+})
+```
