@@ -30,6 +30,9 @@
   "devDependencies": {
     "@types/node": "^8.0.47",
     "@types/react": "^16.0.19",
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
     "classnames": "^2.2.5",
     "css-loader": "^0.28.7",
     "react": "^16.0.0",
