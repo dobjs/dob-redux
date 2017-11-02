@@ -1,0 +1,12 @@
+# IntelliJ project files
+.idea
+*.iml
+out
+gen
+
+node_modules
+built
+.awcache
+
+coverage
+.nyc_output
